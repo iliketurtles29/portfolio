@@ -1,6 +1,7 @@
 import React from 'react'
 import { PiCursorLight } from "react-icons/pi";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaInstagram } from "react-icons/fa";
+import TextType from './TextType';
 
 
 function Main() {
@@ -14,34 +15,30 @@ function Main() {
           </p>
           <h2 className='text-6xl text-white font-normal leading-snug -ml-8'>
             Aspiring{' '}
-            <span className='relative inline-block px-3 py-1 border border-white'>
-              Web Developer
+            <span className='relative inline-block align-top'>
+            
+                <span className='inline-block px-3 py-1 border border-white whitespace-pre-line leading-snug'>
+                <TextType
+                    text={['Web Developer\n& Creative Web Designer ']}
+                    speed={80}
+                    delay={500}
+                    loop={false}
+                    cursor
+                />
 
-              <span className='absolute top-0 left-0 w-2 h-2 bg-white -translate-x-1/2 -translate-y-1/2'></span>
+            
+                <span className='absolute top-0 left-0 w-2 h-2 bg-white -translate-x-1/2 -translate-y-1/2'></span>
+                <span className='absolute top-0 right-0 w-2 h-2 bg-white translate-x-1/2 -translate-y-1/2'></span>
+                <span className='absolute bottom-0 left-0 w-2 h-2 bg-white -translate-x-1/2 translate-y-1/2'></span>
+                <span className='absolute bottom-0 right-0 w-2 h-2 bg-white translate-x-1/2 translate-y-1/2'></span>
 
-              <span className='absolute top-0 right-0 w-2 h-2 bg-white translate-x-1/2 -translate-y-1/2'></span>
- 
-              <span className='absolute bottom-0 left-0 w-2 h-2 bg-white -translate-x-1/2 translate-y-1/2'></span>
-
-              <span className='absolute bottom-0 right-0 w-2 h-2 bg-white translate-x-1/2 translate-y-1/2'></span>
-            </span>
-            <br />
-            &{' '}
-            <span className='relative inline-block px-3 py-1 border border-white'>
-              Web Designer
-
-              <span className='absolute top-0 left-0 w-2 h-2 bg-white -translate-x-1/2 -translate-y-1/2'></span>
-  
-              <span className='absolute top-0 right-0 w-2 h-2 bg-white translate-x-1/2 -translate-y-1/2'></span>
-       
-              <span className='absolute bottom-0 left-0 w-2 h-2 bg-white -translate-x-1/2 translate-y-1/2'></span>
-
-              <span className='absolute bottom-0 right-0 w-2 h-2 bg-white translate-x-1/2 translate-y-1/2'></span>
-               <span className="absolute -bottom-6 -right-6 text-white">
+        
+                <span className='absolute -bottom-6 -right-6 text-white'>
                     <PiCursorLight size={25} />
                 </span>
+                </span>
             </span>
-          </h2>
+            </h2>
         </div>
       </div>
 

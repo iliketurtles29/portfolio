@@ -7,18 +7,16 @@ import Main from './assets/Components/Main'
 
 
 function App() {
-
   return (
     <>
-      <div className='App'>
-        <Header/>
-        <div>
-          <Main/>
+      <div className="App relative w-full h-screen overflow-hidden">
+        <div className="relative z-10">
+          <Header />
+          <Main />
         </div>
-        
       </div>
     </>
-  )
+  );
 }
 
 export default App

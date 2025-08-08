@@ -10,11 +10,17 @@ import Skills from './assets/Components/Skills'
 function App() {
   return (
     <>
-      <div className="App relative w-full h-full overflow-hidden">
-        <div className="relative z-10">
-          <Header />
+      <div className="App relative w-full min-h-screen scroll-smooth">
+        <div className="relative z-10 scroll-smooth">
+          <div id='home'>
+            <Header />
+          </div>
+
           <Main />
-          <Skills/>
+
+          <div id='skills'>
+            <Skills/>
+          </div>
         </div>
       </div>
     </>

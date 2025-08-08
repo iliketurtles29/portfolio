@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 function HeaderItem({ name }) {
+  const id = name.toLowerCase(); // e.g., "Skills" → "skills"
+
   return (
-    <div className='text-white text-[18px] cursor-pointer'>
+    <a
+      href={`#${id}`}
+      className='text-white text-[18px] cursor-pointer hover:underline'
+    >
       {name}
-    </div>
-  )
+    </a>
+  );
 }
 
-export default HeaderItem
+export default HeaderItem;

@@ -12,7 +12,7 @@ function Header() {
   ];
 
   return (
-   <div className='flex items-center justify-between px-10 py-5'>
+   <div className='flex items-center justify-between px-10 py-6'>
 
       <div className='text-[18px] font-normal text-white'> 
         Alvin Rubiales 

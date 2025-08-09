@@ -45,13 +45,14 @@ function Skills() {
 
 
         <div className='flex gap-10 pl-22'>
-          <div className='w-[280px] h-[280px] bg-[#7B79795C] rounded-[25px] pt-6 pl-6 border-2 border-[#5EEEBB] flex text-white text-xl font-semibold'>
+          <div className="w-[280px] h-[280px] bg-[url(/python.png)] bg-cover bg-center rounded-[25px] pt-6 pl-6 border-2 border-[#5EEEBB] flex text-white text-xl font-semibold">
             Python
           </div>
-          <div className='w-[280px] h-[280px] bg-[#7B79795C] rounded-[25px] border-2 border-[#5EADEE] flex pt-6 pl-6 text-white text-xl font-semibold'>
+
+          <div className='w-[280px] h-[280px] bg-[url(/xd.png)] bg-[#7B79795C] rounded-[25px] border-2 border-[#5EADEE] flex pt-6 pl-6 text-white text-xl font-semibold'>
             Adobe XD
           </div>
-          <div className='w-[280px] h-[280px] bg-[#7B79795C] rounded-[25px] border-2 border-[#ACAEAD] flex pt-6 pl-6 text-white text-xl font-semibold'>
+          <div className='w-[280px] h-[280px] bg-[url(/react.png)] bg-[#7B79795C] rounded-[25px] border-2 border-[#ACAEAD] flex pt-6 pl-6 text-white text-xl font-semibold'>
             React
           </div>
           <div className='w-[280px] h-[280px] bg-[#7B79795C] rounded-[25px] border-2 border-[#5EEEBB] flex pt-6 pl-6 text-white text-xl font-semibold'>
